@@ -11,7 +11,7 @@ animations = [ { "frames":[ ExtResource( 2 ), ExtResource( 3 ), ExtResource( 4 )
 
 [node name="Bird" type="RigidBody2D"]
 
-transform/pos = Vector2( 68.0321, 102.78 )
+transform/pos = Vector2( 36, 102.78 )
 input/pickable = false
 collision/layers = 1
 collision/mask = 1

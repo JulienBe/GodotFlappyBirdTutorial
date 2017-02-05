@@ -5,6 +5,7 @@ const max_rotation = deg2rad(30)
 func _ready():
 	set_fixed_process(true)
 	set_process_input(true)
+	set_linear_velocity(Vector2(50, get_linear_velocity().y))
 
 func _fixed_process(delta):
 	angle_control()
