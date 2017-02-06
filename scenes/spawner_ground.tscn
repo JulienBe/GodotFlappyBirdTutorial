@@ -10,7 +10,7 @@ script/script = ExtResource( 1 )
 amount_to_fill_view = 2
 scn = ExtResource( 2 )
 padding = 168
-
-[node name="container" type="Node" parent="."]
+min_y = 20
+max_y = 20
 
 

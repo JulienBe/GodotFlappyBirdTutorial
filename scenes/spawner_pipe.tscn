@@ -9,8 +9,8 @@ transform/pos = Vector2( 144, 128 )
 script/script = ExtResource( 1 )
 amount_to_fill_view = 3
 scn = ExtResource( 2 )
-padding = 86
-
-[node name="container" type="Node" parent="."]
+padding = 90
+min_y = -70
+max_y = 50
 
 
